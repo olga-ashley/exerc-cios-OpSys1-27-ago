@@ -1,0 +1,6 @@
+print('Informe o ano de nascimento.')
+anoNasc=int(input())
+print('Informe o ano atual.')
+anoAtual=int(input())
+print('A idade atual desta pessoa é de ' + str(anoAtual-anoNasc) + '.')
+print('A idade dela daqui a 17 anos será de ' + str(anoAtual-anoNasc+17) + '.')

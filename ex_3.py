@@ -1,0 +1,5 @@
+print('Digite a base')
+base=float(input())
+print('Digite a altura')
+altura=float(input())
+print('A área é igual a ' + str((base*altura)/2) + '.')

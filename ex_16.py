@@ -1,0 +1,11 @@
+print('Informe as horas de trabalho do funcionário.')
+hTrab=int(input())
+print('Agora o valor a ser pago por hora trabalhada.')
+hValor=float(input())
+print('Informe a porcentagem do desconto.')
+pDesc=float(input())
+print('... e o número de dependentes.')
+numDep=int(input())
+
+print('O salário base do funcionário é igual a ' + str(hTrab*hValor) + ' reais.')
+print('O salário líquido do funcionário é igual a ' + str((hTrab*hValor)-((hTrab*hValor)*4/100)+(numDep*100)) + ' reais.')
